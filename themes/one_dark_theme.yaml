@@ -9,7 +9,7 @@ One Dark Theme:
   # Main Interface Colors
   primary-color: "#61AFEF"
   light-primary-color: var(--primary-color)
-  primary-background-color: "#282C34"
+  primary-background-color: "#3b414d"
   secondary-background-color: var(--primary-background-color)
   divider-color: var(--primary-background-color)
   # Text
