@@ -25,7 +25,7 @@ One Dark Theme:
   sidebar-selected-icon-color: "#61AFEF"
   sidebar-selected-text-color: var(--sidebar-selected-icon-color))
   # States and Badges
-  state-icon-color: "#5F6267"
+  state-icon-color: "#61AFEF"
   state-icon-active-color: "#61AFEF"
   state-icon-unavailable-color: var(--disabled-text-color)
   # Sliders
