@@ -1,58 +1,55 @@
-# Theme based on Google app dark theme
-# Creater: Juan - @juanmtech
-# Website: https://www.juanmtech.com
-# YouTube Channel: https://youtube.com/juanmtech
-# My Home Assistant Config files: https://github.com/JuanMTech/Home_Assistant_files
+# Theme based on the Atom One Dark theme
+# Creater: TecCheck
+# Website: https://teccheck.github.io/
 #
-#
-Google Dark Theme:
+One Dark Theme:
   # Header:
-  app-header-background-color: "#171717"
-  app-header-text-color: "#BDC1C6"
+  app-header-background-color: "#282C34"
+  app-header-text-color: "#ABB2BF"
   # Main Interface Colors
-  primary-color: "#5F9BEA"
+  primary-color: "#61AFEF"
   light-primary-color: var(--primary-color)
-  primary-background-color: "#171717"
+  primary-background-color: "#282C34"
   secondary-background-color: var(--primary-background-color)
   divider-color: var(--primary-background-color)
   # Text
-  primary-text-color: "#BDC1C6"
-  secondary-text-color: "#BDC1C6"
+  primary-text-color: "#ABB2BF"
+  secondary-text-color: "#ABB2BF"
   text-primary-color: "#FFFFFF"
   disabled-text-color: "#717171"
   # Sidebar Menu
   sidebar-icon-color: var(--app-header-text-color)
-  sidebar-text-color: '#BDC1C6'
-  sidebar-background-color: "#202124"
+  sidebar-text-color: '#ABB2BF'
+  sidebar-background-color: "#282C34"
   sidebar-selected-background-color: var(--primary-background-color)
-  sidebar-selected-icon-color: "#5F9BEA"
+  sidebar-selected-icon-color: "#61AFEF"
   sidebar-selected-text-color: var(--sidebar-selected-icon-color))
   # States and Badges
   state-icon-color: "#5F6267"
-  state-icon-active-color: "#5F9BEA"
+  state-icon-active-color: "#61AFEF"
   state-icon-unavailable-color: var(--disabled-text-color)
   # Sliders
-  paper-slider-knob-color: "#5F9BEA"
+  paper-slider-knob-color: "#61AFEF"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
   paper-slider-secondary-color: var(--light-primary-color)
   # Labels
-  label-badge-background-color: "#202124"
-  label-badge-text-color: "#BDC1C6"
-  label-badge-red: "#D06568"
-  label-badge-green: "#80C884"
-  label-badge-blue: "#5F9BEA"
-  label-badge-yellow: "#DFC271"
-  label-badge-gray: "#5F6267"
+  label-badge-background-color: "#282C34"
+  label-badge-text-color: "#ABB2BF"
+  label-badge-red: "#E06C75"
+  label-badge-green: "#98C379"
+  label-badge-blue: "#61AFEF"
+  label-badge-yellow: "#E5C07B"
+  label-badge-gray: "#ABB2BF"
 
   # Cards
-  ha-card-border-radius: "15px"
+  ha-card-border-radius: "8px"
   ha-card-box-shadow: 1px 1px 5px 0px rgb(12, 12, 14)
-  paper-card-background-color: "#202124"
-  paper-listbox-background-color: "#202124"
+  paper-card-background-color: "#282C34"
+  paper-listbox-background-color: "#282C34"
   # Switches
-  switch-checked-button-color: "#5F9BEA"
+  switch-checked-button-color: "#61AFEF"
   switch-checked-track-color: "#404D64"
   switch-unchecked-button-color: "#636466"
   switch-unchecked-track-color: "#636466"
