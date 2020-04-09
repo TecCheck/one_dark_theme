@@ -4,12 +4,12 @@
 #
 One Dark Theme:
   # Header:
-  app-header-background-color: "#282C34"
+  app-header-background-color: "#3b414d"
   app-header-text-color: "#ABB2BF"
   # Main Interface Colors
   primary-color: "#61AFEF"
   light-primary-color: var(--primary-color)
-  primary-background-color: "#3b414d"
+  primary-background-color: "#282C34"
   secondary-background-color: var(--primary-background-color)
   divider-color: var(--primary-background-color)
   # Text
