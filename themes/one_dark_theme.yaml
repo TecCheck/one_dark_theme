@@ -99,3 +99,5 @@ One Dark Theme:
   # HACS
   hacs-status-installed: var(--green)
   hacs-status-not-loaded: var(--red)
+  hacs-status-pending-update: var(--yellow)
+  
