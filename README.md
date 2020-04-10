@@ -6,17 +6,15 @@ There is also [One Light](https://github.com/TecCheck/one_light_theme)
 
 ### Screenshots
 
-**This is work in progress**
-
 **1. Desktop**
 <p align="center">
-  <!--img src="https://i.imgur.com/CS3N3kB.png"-->
+  <img src="https://github.com/TecCheck/one_dark_theme/res/screenshot_desktop.png">
 </p>
 
 **2. Mobile**
 
 <p align="center">
-  <!--img src="https://i.imgur.com/D4RDkiG.png"-->
+  <img src="https://github.com/TecCheck/one_dark_theme/res/screenshot_moblie.png">
 </p>
 
 ### Preparation
