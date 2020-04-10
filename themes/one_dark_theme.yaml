@@ -1,47 +1,74 @@
-# Theme based on the Atom One Dark theme
-# Creater: TecCheck
-# Website: https://teccheck.github.io/
-#
 One Dark Theme:
-  # Header:
-  app-header-background-color: "#3b414d"
-  app-header-text-color: "#ABB2BF"
+
+  # Colors
+  black: "#1E2127"
+  bright-black: "#383A42"
+  red: "#E06C75"
+  green: "#98C379"
+  yellow: "#D19A66"
+  blue: "#61AFEF"
+  magenta: "#C678DD"
+  cyan: "#56B6C2"
+  white: "#ABB2BF"
+  bright-white: "#FFFFFF"
+  grey: "#5C6370"
+
+  background: "#282C34"
+
+  # Material Colors
+  google-red-500: var(--red)
+  google-blue-500: var(--blue)
+  google-green-500: var(--green)
+  google-yellow-500: var(--yellow)
+  paper-green-400: var(--green)
+  paper-blue-400: var(--blue)
+  paper-orange-400: var(--yellow)
+
+  # Header
+  app-header-background-color: var(--black)
+  app-header-text-color: var(--white)
+
   # Main Interface Colors
-  primary-color: "#61AFEF"
+  primary-color: var(--blue)
   light-primary-color: var(--primary-color)
-  primary-background-color: "#282C34"
+
+  primary-background-color: var(--background)
   secondary-background-color: var(--primary-background-color)
-  divider-color: var(--primary-background-color)
+
+  divider-color: var(--black)
+  accent-color: var(--yellow)
+  error-color: var(--red)
+
   # Text
-  primary-text-color: "#ABB2BF"
-  secondary-text-color: "#ABB2BF"
-  text-primary-color: "#FFFFFF"
-  disabled-text-color: "#717171"
+  primary-text-color: var(--white)
+  secondary-text-color: var(--white)
+  text-primary-color: var(--bright-white)
+  disabled-text-color: var(--grey)
   # Sidebar Menu
   sidebar-icon-color: var(--app-header-text-color)
-  sidebar-text-color: '#ABB2BF'
-  sidebar-background-color: "#282C34"
+  sidebar-text-color: var(--white)
+  sidebar-background-color: var(--background)
   sidebar-selected-background-color: var(--primary-background-color)
-  sidebar-selected-icon-color: "#61AFEF"
+  sidebar-selected-icon-color: var(--blue)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color))
   # States and Badges
-  state-icon-color: "#61AFEF"
-  state-icon-active-color: "#61AFEF"
+  state-icon-color: var(--blue)
+  state-icon-active-color: var(--blue)
   state-icon-unavailable-color: var(--disabled-text-color)
   # Sliders
-  paper-slider-knob-color: "#61AFEF"
+  paper-slider-knob-color: var(--blue)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
   paper-slider-secondary-color: var(--light-primary-color)
   # Labels
-  label-badge-background-color: "#282C34"
-  label-badge-text-color: "#ABB2BF"
-  label-badge-red: "#E06C75"
-  label-badge-green: "#98C379"
-  label-badge-blue: "#61AFEF"
-  label-badge-yellow: "#E5C07B"
-  label-badge-gray: "#ABB2BF"
+  label-badge-background-color: var(--background)
+  label-badge-text-color: var(--white)
+  label-badge-red: var(--red)
+  label-badge-green: var(--green)
+  label-badge-blue: var(--blue)
+  label-badge-yellow: var(--yellow)
+  label-badge-gray: var(--white)
 
   # Cards
   ha-card-border-radius: "8px"
@@ -49,7 +76,7 @@ One Dark Theme:
   paper-card-background-color: "#282C34"
   paper-listbox-background-color: "#282C34"
   # Switches
-  switch-checked-button-color: "#61AFEF"
+  switch-checked-button-color: var(--blue)
   switch-checked-track-color: "#404D64"
   switch-unchecked-button-color: "#636466"
   switch-unchecked-track-color: "#636466"
@@ -62,3 +89,7 @@ One Dark Theme:
   table-row-background-color: var(--primary-background-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   data-table-background-color: var(--primary-background-color)
+
+  # HACS
+  hacs-status-installed: var(--green)
+  hacs-status-not-loaded: var(--red)
