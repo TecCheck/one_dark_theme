@@ -29,10 +29,12 @@ frontend:
 
 ### HACS installation
 1. Go into the Community Store (HACS)
-2. Search for One Dark Theme
-3. Open the theme
-4. Press Install
-5. Restart Home Assistant
+2. Go into the Settings
+3. Add this repository
+4. Search for One Dark Theme
+5. Open the theme
+6. Press Install
+7. Restart Home Assistant
 
 ### Manual installation
 1. In the Home assistant **themes** folder, create a file named `one_dark_theme.yaml`
