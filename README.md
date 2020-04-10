@@ -8,13 +8,13 @@ There is also [One Light](https://github.com/TecCheck/one_light_theme)
 
 **1. Desktop**
 <p align="center">
-  <img src="https://github.com/TecCheck/one_dark_theme/res/screenshot_desktop.png">
+  <img src="https://raw.githubusercontent.com/TecCheck/one_dark_theme/master/res/screenshot_desktop.png">
 </p>
 
 **2. Mobile**
 
 <p align="center">
-  <img src="https://github.com/TecCheck/one_dark_theme/res/screenshot_moblie.png">
+  <img src="https://raw.githubusercontent.com/TecCheck/one_dark_theme/master/res/screenshot_mobile.png">
 </p>
 
 ### Preparation
