@@ -51,16 +51,16 @@ One Dark Theme:
   sidebar-text-color: var(--text)
   sidebar-background-color: var(--background)
   sidebar-selected-background-color: var(--primary-background-color)
-  sidebar-selected-icon-color: var(--blue)
+  sidebar-selected-icon-color: var(--primary-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color))
 
   # States and Badges
-  state-icon-color: var(--blue)
-  state-icon-active-color: var(--blue)
+  state-icon-color: var(--primary-color)
+  state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--disabled-text-color)
 
   # Sliders
-  paper-slider-knob-color: var(--blue)
+  paper-slider-knob-color: var(--primary-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
@@ -81,8 +81,14 @@ One Dark Theme:
   paper-card-background-color: var(--bright-black)
   paper-listbox-background-color: var(--bright-black)
 
+  # Fix for selection cards in automation ui (not complete)
+  card-background-color: var(--primary-background-color)
+  light-accent-color: var(--primary-color)
+  light-theme-background-color: var(--background)
+  light-theme-text-color: var(--primary-text-color)
+
   # Switches
-  switch-checked-button-color: var(--blue)
+  switch-checked-button-color: var(--primary-color)
   switch-checked-track-color: "#404D64"
   switch-unchecked-button-color: "#636466"
   switch-unchecked-track-color: "#636466"
