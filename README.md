@@ -1,6 +1,9 @@
 # One Dark Theme
-A Home Assistant theme inspired by atoms one dark theme and built on the [Google Dark Theme](https://github.com/JuanMTech/google_dark_theme) by JuanMTech.
 
+
+[![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg?style=for-the-badge)](https://github.com/custom-components/hacs)
+
+A Home Assistant theme inspired by atoms one dark theme and built on the [Google Dark Theme](https://github.com/JuanMTech/google_dark_theme) by JuanMTech.
 
 There is also [One Light](https://github.com/TecCheck/one_light_theme)
 
